@@ -30,10 +30,8 @@ body{
     grid-template-columns: 50% 50%;
     
 }
-.container__secundario{   
-    margin: 0 6em;
-    
-  
+.container__caixa{   
+    margin: 0 6em;  
   
 }
 .container__titulo{
@@ -70,4 +68,23 @@ body{
     font-family: 'Inter', sans-serif;
     font-size: 0.75rem;
     font-weight: 400;
+}
+.secundario__imagem{
+    width: 80%;
+}
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+
+}
+
+.descricao__texto{
+    color: var(--cinza-secundario);
 }
