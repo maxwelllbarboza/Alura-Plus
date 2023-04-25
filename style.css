@@ -21,6 +21,8 @@ body{
     background-image: url("assets/Background.png") ;
     background-repeat: no-repeat;
     background-size: contain ;
+    align-items: center;
+    text-align: center;
 }
 .container{
     height: 100vh;    
@@ -29,6 +31,7 @@ body{
     
 }
 .container__secundario{   
+    margin: 0 6em;
     
   
   
@@ -37,6 +40,11 @@ body{
     color: var(--branco-principal);    
     font-size: 1.75rem;
     font-weight: 700;
+}
+.container__imagem{
+    margin: 1em; 0 2em 0;
+
+
 }
 
 .container__botao{
@@ -47,6 +55,7 @@ body{
     padding: 1rem;
     color: var(--branco-principal);
     display: block;
+    margin-bottom: 1em;
     
 }
 
