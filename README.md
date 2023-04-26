@@ -14,3 +14,4 @@ Aplicação usando o básico de HTML e CSS. Foi feito o deploy na vercel.
 - Flex Box
 - Reutilização de classes no CSS
 - HTML Semântico
+- Prática com imagens
