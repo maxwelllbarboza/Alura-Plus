@@ -119,3 +119,36 @@ body{
     font-size: 2rem;
     color: var(--branco-principal);
 }
+.rodape{
+    text-align: center;
+}
+.rodape__lista{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+    margin: 35px 70px 24px 70px;
+}
+
+.lista__link{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.lista__link a {
+    text-decoration: none;
+    color: var(--branco-principal);
+    
+}
+.rodape_caixa{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 70px 30px 70px;
+
+
+}
+.rodape__texto{
+    color: var(--branco-principal);
+    font-size: 0.87rem;
+    text-align: center;
+}
